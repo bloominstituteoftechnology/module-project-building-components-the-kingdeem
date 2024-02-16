@@ -103,7 +103,7 @@ function moduleProject3() {
     companyAddress.textContent = footerData.address
     const contactEmail = document.createElement('p')
     contactEmail.classList.add('contact-email')
-    contactEmail.innerHTML = `<a href"mailto:${footerData.contactEmail}"> Email: ${footerData.contactEmail}`
+    contactEmail.innerHTML = `Email: <a href"mailto:${footerData.contactEmail}"> ${footerData.contactEmail}`
 
     const socialMedia = document.createElement('div')
     socialMedia.classList.add('social-media')
